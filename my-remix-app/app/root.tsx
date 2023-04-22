@@ -1,3 +1,6 @@
+import type { LinksFunction } from "@remix-run/node"; // or cloudflare/deno
+
+
 import {
   Links,
   LiveReload,
@@ -7,11 +10,12 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 
-import styles from "/styles/App.css"
-import { LinksFunction } from "@remix-run/node";
-export const links:LinksFunction=()=>  {
-  return [{rel: "stylesheet", href: styles}]
-}
+import stylesheet from "~/tailwind.css";
+
+
+export const links: LinksFunction = () => [
+  { rel: "stylesheet", href: stylesheet },
+];
 export default function App() {
   return (
     <html lang="en">
