@@ -1,4 +1,6 @@
-# progetto-vinili-
+ZXC# progetto-vinili-
+ALL'INIZIO INTENDEVAMO FARE UN SITO PER ACCQUISTARE VINILI MA ABBIAMO CAMBIATO PRGETTO 
+STIAMO SEGUENDO UN TUTORIAL PER FARE UN SITO CHE PERMETTE DI COMPRARE GIOCHI 
 progetto vinili per tpsit versione definitiva 
 
  "scripts": {
