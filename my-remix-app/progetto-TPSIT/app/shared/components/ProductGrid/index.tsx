@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import { Link } from "remix";
-
+ 
 const StyledProductGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));

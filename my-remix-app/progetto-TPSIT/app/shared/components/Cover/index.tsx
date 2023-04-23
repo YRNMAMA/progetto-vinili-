@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-
+ 
 interface IProps {
   image: string;
   title: string;
