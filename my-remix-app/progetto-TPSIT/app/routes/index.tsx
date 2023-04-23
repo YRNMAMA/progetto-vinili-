@@ -1,4 +1,4 @@
-import { db } from "~/db";
+import { db } from "~/db"; 
 import { json, LoaderFunction, useLoaderData } from "remix";
 import Cover from "~/shared/components/cover";
 import ProductGrid from "~/shared/components/ProductGrid";
